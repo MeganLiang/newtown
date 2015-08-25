@@ -1,0 +1,276 @@
+/*** HTML5 Elements ***/
+@media screen{
+header,
+nav,
+article,
+section,
+footer {
+  display: block;
+}
+/*** Page Layout ***/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: verdana, arial, sans-serif;
+  font-size: 13px;
+}
+div#container {
+  width: 960px;
+  margin: 35px auto;
+  padding: 5px 20px;
+  background-color: #fff;
+}
+/** Header **/
+header {
+ padding: 0 20px;
+ background-image: url(../images/header.jpg);
+}
+
+header h1 {
+ -webkit-text-stroke: 1px black;
+ color: white;
+ text-shadow:
+ 3px 3px 0 #000,
+ -3px -3px 0 #000,  
+ 1px -1px 0 #000,
+ -1px 1px 0 #000,
+ 1px 1px 0 #000;
+ font-size: 5em;
+ font-weight: bold;
+ font-family: grendel;
+ padding: 5px 0 0 0;
+ text-align: center;
+ /*prevents default padding and margins to be applied*/
+ margin-bottom: 0; 
+ padding-bottom: 0; 
+ margin-top: 0; 
+ padding-top: 0; 
+}
+header h2 {
+	color:#B52828;
+	-webkit-text-stroke: 0.5px black;
+  font-size: 2em;
+  font-family: sans serif;
+  padding: 0 0 20px 0;
+	/*the boldest*/
+  font-weight:100;
+  text-align: center;
+}
+/** Navigation **/
+nav {
+  margin: 0 0 25px 0;
+  padding: 10px 25px;
+  background-color: #8A916E;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 2.5em 0 0;
+  padding: 0;
+  float: left;
+  font-size: 1.2em;
+}
+nav ul li a:link,
+nav ul li a:visited{
+color: #fff;
+text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #871301;
+  text-decoration: none;
+}
+div.date{
+  text-align: right; 
+}
+/** Article **/
+article{
+  display: block;
+	padding: 25px;
+}
+article img {
+  padding: 0 10px 10px 50px;
+}
+.riddiford{
+  margin: 0;
+  padding: 0 20px 20px 25px;
+  width:450px;
+  float:left;
+  font-size: 14px; 
+}
+
+.present{
+  margin: 0;
+  padding: 0 25px 0 0;
+  width:430px;
+  float:right;
+  font-size: 14px;
+}
+
+article h1 {
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  font-size: 2em;
+  font-family: TypoLatinserif-Bold;
+  color: black;
+}
+article h2 {
+
+  padding: 0;
+  font-weight: bold;
+  font-size: 1.7em;
+  font-family: arial,verdana,sans-serif;
+  color: #B52828;
+}
+/*forms*/
+form{
+	font-size:16px;
+	margin:0 auto;
+	width:25%;
+	text-align:left;
+  padding: 20px;	
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.3em;
+	margin: 0px 0px 10px 0px;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+div#requirements{
+  color:red;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	height:50px;
+	margin:0 0 20px 0;
+	float: left;
+	  -webkit-filter: brightness(100%);
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+#contact-area input.submit-button:hover{
+color: #B52828;
+-webkit-filter: brightness(110%);
+}
+
+label {
+	float: left;
+	padding-top: 5px;
+	font-size: 1.3em;
+}
+
+.contactus{
+	padding:0;
+	margin:0;
+}
+
+input{
+	margin: 10px 0;
+	width:100%;
+	height:25px;
+}
+form#login {
+	font-size:16px;
+	margin:0 auto;
+	width:25%;
+	text-align:left;
+	padding: 40px 20px;
+}
+
+input.submit_button{
+	width:100%;
+	height:40px;
+	font-size:16px;
+	/*hover transition*/
+	-webkit-filter: brightness(100%);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	padding:0;
+}
+
+ input.submit_button:hover{
+	color: #B52828;
+	/*change in brightness when mouse hovered*/
+	-webkit-filter: brightness(110%);
+}
+/*gallery images*/
+
+div#image-container {
+  margin: 0;
+  padding: 10px 25px;
+}
+figure {
+	float: left;
+	margin: 10px;
+	padding: 10px 2px;
+}
+  figcaption{
+	text-align: center;
+	font-size: 1.2em;
+	text-decoration: none;
+  color:black;
+  padding: 0 10px 10px 50px;
+}
+figure :hover{
+	color:#802A2A
+}
+
+/** Footer **/
+footer {
+  clear: both;
+  position: relative;
+  margin: 0;
+  padding: 10px 25px;
+  background-color: #8A916E;
+	height: 100%;
+	bottom:0;
+	left:0;
+}
+
+.fb-like{
+  padding:0 0 5px 0;
+	position:absolute;
+}
+.top{
+	clear:both;
+	padding: 0 25px;
+	float: right;
+	position:fixed;
+	display:inline;
+}	
+.twitter-share-button{
+  float: left;
+	padding: 2px 0 2px 0;
+}
+
+div#copyright{
+  text-align:right;
+	padding: 0 0 10px 0;
+  vertical-align: text-top;
+}
+}
